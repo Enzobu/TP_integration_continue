@@ -8,7 +8,7 @@ public class App {
 
     public static boolean isTemperatureValid(double temp) {
         // Température valide entre 2°C et 8°C
-        return (temp >= 0.0 && temp <= 8.0);
+        return (temp >= 2.0 && temp <= 0.0);
     }
 }
 
