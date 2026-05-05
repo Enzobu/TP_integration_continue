@@ -7,7 +7,7 @@ public class App {
     }
 
     public static boolean isTemperatureValid(double temp) {
-        // Température valide entre 2°C et 8°C
+        azerty();
         return (temp >= 0.0 && temp <= 8.0);
     }
 }
