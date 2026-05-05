@@ -16,9 +16,13 @@ public class AppTest {
         //assertFalse(App.isTemperatureValid(5.0));
     }
 
-
     @Test
     public void testTemperatureTooHigh() {
         assertFalse(App.isTemperatureValid(10.0));
+    }
+
+    @Test
+    public void testTemperatureToLow() {
+        assertFalse(App.isTemperatureValid(1.0));
     }
 }
