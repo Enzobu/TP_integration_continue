@@ -8,8 +8,6 @@ public class App {
     }
 
     public static boolean isTemperatureValid(double temp) {
-        if (temp > 100) {}
-
         return temp >= 2.0 && temp <= 8.0;
     }
 }
