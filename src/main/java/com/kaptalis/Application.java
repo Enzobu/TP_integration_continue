@@ -1,9 +1,10 @@
 package com.kaptalis;
 
-public class App {
-    String unusedVariable = "Audit_MedTech";
+public class Application {
 
-       public static void main(String[] args) {
+    public Application() {}
+
+    public static void main(String[] args) {
         System.out.println("Kaptalis Monitoring System - Active");
     }
 
