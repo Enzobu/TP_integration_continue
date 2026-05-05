@@ -7,7 +7,7 @@ public class App {
     }
 
     public static boolean isTemperatureValid(double temp) {
-        return (temp >= 0.0 && temp <= 8.0);
+        return (temp >= 2.0 && temp <= 8.0);
     }
 }
 
