@@ -2,21 +2,19 @@ package com.kaptalis;
 
 import java.util.logging.Logger;
 
-public class Application {
+public final class Application {
 
-    private static final Logger logger = Logger.getLogger("com.kaptalis");
+    private static final Logger LOGGER = Logger.getLogger(Application.class.getName());
 
     private Application() {
-        // empêche l'instanciation
+        // Utility class
     }
 
-    public static void main(String[] args) {
-        System.out.println("Kaptalis Monitoring System - Active");
-        logger.fine("Kaptalis Monitoring System - Active");
+    public static void main(final String[] args) {
+        LOGGER.info("Kaptalis Monitoring System - Active");
     }
 
-    public static boolean isTemperatureValid(double temp) {
+    public static boolean isTemperatureValid(final double temp) {
         return temp >= 2.0 && temp <= 8.0;
     }
 }
-
